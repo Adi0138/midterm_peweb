@@ -37,6 +37,14 @@ Route::get('/view1', 'ViewController@index1');
 Route::get('/view2', 'ViewController@index2');
 Route::get('/view3', 'ViewController@index3');
 Route::get('/view4', 'ViewController@index4');
+Route::get('/Details1', 'FacilitiesController@index');
+Route::get('/Details2', 'FacilitiesController@index1');
+Route::get('/Details3', 'FacilitiesController@index2');
+Route::get('/Details4', 'FacilitiesController@index3');
+Route::get('/Details5', 'FacilitiesController@index4');
+Route::get('/Details6', 'FacilitiesController@index5');
+Route::get('/Details7', 'FacilitiesController@index6');
+Route::get('/Details8', 'FacilitiesController@index7');
 
 
 

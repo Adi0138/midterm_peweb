@@ -36,4 +36,8 @@ class PagesController extends Controller
         return view ('PresidentialView');
     }
 
+    public function Details()
+    {
+        return View ('Swimming');
+    }
 }
