@@ -31,9 +31,9 @@ class PagesController extends Controller
         return view ('BookingForm');
     }
 
-    public function Review ()
+    public function View()
     {
-        return view ('review');
+        return view ('PresidentialView');
     }
 
 }

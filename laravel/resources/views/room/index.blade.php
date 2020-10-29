@@ -22,10 +22,10 @@
                 <tr class="PS-001">
                         <th scope="row1">001</th>
                         <td>Presidential Suite Room</td>
-                        <td>1</td>
+                        <td>5</td>
                         <td>Rp 5.000.000/night</td>
                         <td> 
-                            <a href="" class="btn btn-primary">View</a>   
+                            <a href="/view" class="btn btn-primary">View</a>   
                             <a href="/form" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
@@ -34,10 +34,10 @@
                     <tr class="PS-002">
                         <th scope="row1">002</th>
                         <td>Presidential Suite Room</td>
-                        <td>1</td>
+                        <td>5</td>
                         <td>Rp 5.000.000/night</td>
                         <td> 
-                            <a href="" class="btn btn-primary">View</a>   
+                            <a href="/view" class="btn btn-primary">View</a>   
                             <a href="/form" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
@@ -46,10 +46,10 @@
                     <tr class="King-003">
                         <th scope="row1">003</th>
                         <td>Deluxe Kings Room</td>
-                        <td>2</td>
+                        <td>4</td>
                         <td>Rp 2.000.000/night</td>
                         <td> 
-                            <a href="" class="btn btn-primary">View</a>   
+                            <a href="/view1" class="btn btn-primary">View</a>   
                             <a href="/form" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
@@ -57,10 +57,10 @@
                     <tr class="King-004">
                         <th scope="row1">004</th>
                         <td>Deluxe Kings Room</td>
-                        <td>2</td>
+                        <td>4</td>
                         <td>Rp 2.000.000/night</td>
                         <td> 
-                            <a href="" class="btn btn-primary">View</a>   
+                            <a href="/view1" class="btn btn-primary">View</a>   
                             <a href="/form" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
@@ -72,7 +72,7 @@
                         <td>3</td>
                         <td>Rp 1.500.000/night</td>
                         <td> 
-                            <a href="" class="btn btn-primary">View</a>   
+                            <a href="/view2" class="btn btn-primary">View</a>   
                             <a href="/form" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
@@ -83,7 +83,7 @@
                         <td>3</td>
                         <td>Rp 1.500.000/night</td>
                         <td> 
-                            <a href="" class="btn btn-primary">View</a>   
+                            <a href="/view2" class="btn btn-primary">View</a>   
                             <a href="/form" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
@@ -94,7 +94,7 @@
                         <td>3</td>
                         <td>Rp 1.500.000/night</td>
                         <td> 
-                            <a href="" class="btn btn-primary">View</a>   
+                            <a href="/view2" class="btn btn-primary">View</a>   
                             <a href="/form" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
@@ -104,10 +104,10 @@
                     <tr class="O-008">
                         <th scope="row1">008</th>
                         <td>Standart Double Room</td>
-                        <td>4</td>
+                        <td>2</td>
                         <td>Rp 750.000/night</td>
                         <td> 
-                            <a href="" class="btn btn-primary">View</a>   
+                            <a href="/view3" class="btn btn-primary">View</a>   
                             <a href="/form" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
@@ -116,10 +116,10 @@
                     <tr class="O-009">
                         <th scope="row1">009</th>
                         <td>Standart Double Room</td>
-                        <td>4</td>
+                        <td>2</td>
                         <td>Rp 750.000/night</td>
                         <td> 
-                            <a href="" class="btn btn-primary">View</a>   
+                            <a href="/view3" class="btn btn-primary">View</a>   
                             <a href="/form" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
@@ -128,10 +128,10 @@
                     <tr class="O-009">
                         <th scope="row1">010</th>
                         <td>Standart Double Room</td>
-                        <td>4</td>
+                        <td>2</td>
                         <td>Rp 750.000/night</td>
                         <td> 
-                            <a href="" class="btn btn-primary">View</a>   
+                            <a href="/view3" class="btn btn-primary">View</a>   
                             <a href="/form" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
@@ -140,10 +140,10 @@
                     <tr class="O-009">
                         <th scope="row1">011</th>
                         <td>Standart Double Room</td>
-                        <td>4</td>
+                        <td>2</td>
                         <td>Rp 750.000/night</td>
                         <td> 
-                            <a href="" class="btn btn-primary">View</a>   
+                            <a href="/view3" class="btn btn-primary">View</a>   
                             <a href="/form" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
@@ -152,10 +152,10 @@
                     <tr class="O-009">
                         <th scope="row1">012</th>
                         <td>Standart Double Room</td>
-                        <td>4</td>
+                        <td>2</td>
                         <td>Rp 750.000/night</td>
                         <td> 
-                            <a href="" class="btn btn-primary">View</a>   
+                            <a href="/view3" class="btn btn-primary">View</a>   
                             <a href="/form" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
@@ -163,10 +163,10 @@
                     <tr class="O-009">
                         <th scope="row1">013</th>
                         <td>Standart Single Room</td>
-                        <td>5</td>
+                        <td>1</td>
                         <td>Rp 500.000/night</td>
                         <td> 
-                            <a href="" class="btn btn-primary">View</a>   
+                            <a href="/view4" class="btn btn-primary">View</a>   
                             <a href="/form" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
@@ -175,10 +175,10 @@
                     <tr class="O-009">
                         <th scope="row1">014</th>
                         <td>Standart Single Room</td>
-                        <td>5</td>
+                        <td>1</td>
                         <td>Rp 500.000/night</td>
                         <td> 
-                            <a href="" class="btn btn-primary">View</a>   
+                            <a href="/view4" class="btn btn-primary">View</a>   
                             <a href="/form" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
@@ -187,31 +187,13 @@
                     <tr class="O-009">
                         <th scope="row1">015</th>
                         <td>Standart Single Room</td>
-                        <td>5</td>
+                        <td>1</td>
                         <td>Rp 500.000/night</td>
                         <td> 
-                            <a href="" class="btn btn-primary">View</a>   
+                            <a href="/view4" class="btn btn-primary">View</a>   
                             <a href="/form" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
-
-
-
-
-                   
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </tbody>
             </table>
        </div>
