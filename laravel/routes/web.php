@@ -32,7 +32,7 @@ Route::get('/about', 'PagesController@about');
 Route::get('/room', 'RoomController@index');
 Route::get('/facilities', 'PagesController@facilities');
 Route::get('/form', 'BookingFormController@index');
-
+Route::get('/review', 'ReviewController@index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
