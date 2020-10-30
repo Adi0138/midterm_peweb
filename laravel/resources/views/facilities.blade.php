@@ -56,23 +56,20 @@
       <p>ITS hotel provides several facilities for the comfort and needs of all of you who want to rent an ITS hotel, so here are the details of our facility There are Swimming Pool, SPA, Valet Parking, WI-FI, Ballroom, Restaurant, Sauna, Fittness Center</p>
     </div>
   </div>
-
   <div class="container">
     <!-- Example row of columns --> 
     <div class="row">
       <div class="col-md-4">
         <h2><i class="fas fa-swimming-pool"></i> Swimming Pool </h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+      
         <p><a class="btn btn-secondary" href="/Details1" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-4">
         <h2><i class="fas fa-spa"></i> SPA</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
         <p><a class="btn btn-secondary" href="/Details2" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-4">
         <h2><i class="fas fa-parking"></i> Valet Parking</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
         <p><a class="btn btn-secondary" href="/Details3" role="button">View details &raquo;</a></p>
       </div>
     </div>
@@ -80,17 +77,14 @@
     <div class="row">
       <div class="col-md-4">
         <h2><i class="fas fa-wifi"></i> WI-FI</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
         <p><a class="btn btn-secondary" href="/Details4" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-4">
         <h2><i class="fas fa-city"></i> Ballroom</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
         <p><a class="btn btn-secondary" href="/Details5" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-4">
         <h2><i class="fas fa-hot-tub"></i>Sauna</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
         <p><a class="btn btn-secondary" href="/Details6" role="button">View details &raquo;</a></p>
       </div>
     </div>
@@ -98,12 +92,10 @@
     <div class="row">
       <div class="col-md-4">
         <h2><i class="fas fa-swimming-pool"></i> Fittness Center </h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
         <p><a class="btn btn-secondary" href="/Details7" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-4">
         <h2><i class="fas fa-swimming-pool"></i> Restaurant </h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
         <p><a class="btn btn-secondary" href="/Details8" role="button">View details &raquo;</a></p>
       </div>
     </div>
@@ -115,7 +107,6 @@
 </main>
 
 <footer class="container">
-  <p>&copy; Company 2017-2020</p>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>

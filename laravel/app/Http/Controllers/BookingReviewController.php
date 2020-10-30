@@ -5,17 +5,21 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class BookingFormController extends Controller
+class BookingReviewController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index($id)
+    public function index()
     {
-        $data = $id;
-        return view ('Room/BookingForm')->with('data',$data);
+        // mengambil data dari table pegawai
+    	$forms = DB::table('forms')->get();
+ 
+    	// mengirim data pegawai ke view index
+    	return view('room/BookingReview',['forms' => $forms]);
+       // return view ('room/BookingReview');
     }
 
     /**
@@ -36,19 +40,7 @@ class BookingFormController extends Controller
      */
     public function store(Request $request)
     {
-        DB::table('forms')->insert([
-            'Name' => $request->Name, 
-            'Email' => $request->Email, 
-            'Address' => $request->Address, 
-            'PhoneNumber' => $request->PhoneNumber, 
-            'TypeOfRoom' => $request->Room, 
-            'CheckIn' => $request->CheckIn, 
-            'CheckOut' => $request->CheckOut, 
-            'PaymentMethod' => $request->PaymentMethod, 
-                    
-            ]
-        );
-        return redirect('BookingReview');
+        //
     }
 
     /**

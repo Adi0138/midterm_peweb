@@ -40,4 +40,9 @@ class PagesController extends Controller
     {
         return View ('Swimming');
     }
+
+    public function BookingReview()
+    {
+        return view ('BookingReview');
+    }
 }

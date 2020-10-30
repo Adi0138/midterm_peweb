@@ -17,8 +17,8 @@
                         <th scope="col">Action</th>
                     </tr>
                 </thead>
+
                 <tbody>
-                    
                 <tr class="PS-001">
                         <th scope="row1">001</th>
                         <td>Presidential Suite Room</td>

@@ -115,20 +115,23 @@ body {
     }
 </style>
 
-<div class="container">
-   <div class="row">
-       <div class="col-10">
-       <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-            <main role="main" class="inner cover">
+<body class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-10">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+          <main role="main" class="inner cover">
             <h1 class="cover-heading text-center">About Us</h1>
             <p class="lead">The ITS Hotel, a perfect blend of Indonesian culture, traditions, lifestyle and beauty. A warm smile and impeccable service of ITS Hotel always accompany you during your stay with us. The ITS Hotel is located in the most favorite tourist destination in East Java, a magnificent ambience combining natural, contemporary and ancient United Kingdom Design. Our premium facilities which combine with our service quality together with exotic view of the three biggest mountains in East Java forming a luxury rejuvenating escape in the first five stars resort in East Java.</p>
-
+            <p class="lead">
+              <a href="" class="btn btn-lg btn-secondary">Hotel Review</a>
             </main>
-            </div>    
-       </div>
-   </div>
-</div>    
-
+          </div>    
+        </div>
+      </div>
+    </div>    
+  </body>
+    
 @endsection
 
   

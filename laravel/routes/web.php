@@ -46,9 +46,8 @@ Route::get('/Details5', 'FacilitiesController@index4');
 Route::get('/Details6', 'FacilitiesController@index5');
 Route::get('/Details7', 'FacilitiesController@index6');
 Route::get('/Details8', 'FacilitiesController@index7');
-
-
-
+Route::get('/BookingReview', 'BookingReviewController@index');
+Route::get('/form', 'BookingFormController@index');
 
 Auth::routes();
 

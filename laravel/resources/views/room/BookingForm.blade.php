@@ -80,7 +80,7 @@
       </div>
     </div> -->
 
-    <button type="submit" class="btn btn-success">Reserve Now !</button>
+    <button type="submit" class="btn btn-success" >Reserve Now !</button>
     
   </form>
 
