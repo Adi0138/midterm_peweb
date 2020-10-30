@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class ReviewController extends Controller
 {
@@ -34,7 +35,13 @@ class ReviewController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        DB::table('feedback')->insert([
+            'Name' => $request->Name, 
+            'Ratings' => $request->Ratings, 
+            'WriteYourExperience' => $request->WriteYourExperience, 
+            ]
+        );
+        return redirect('review');
     }
 
     /**
@@ -77,8 +84,12 @@ class ReviewController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function delete($ID)
     {
-        //
+	// // menghapus data pegawai berdasarkan id yang dipilih
+	// DB::table('feedback')->where('IDCustomer',$ID)->delete();
+		
+	// // alihkan halaman ke halaman pegawai
+	// return redirect('/BookingReview');
     }
 }

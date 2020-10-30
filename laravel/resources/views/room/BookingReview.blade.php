@@ -11,7 +11,7 @@
                     <th scope="col">ID Customer</th>
                     <th scope="col">Name</th>
                     <th scope="col">Email</th>
-                    <th scope="col">Addres</th>
+                    <th scope="col">Address</th>
                     <th scope="col">Phone Number</th>
                     <th scope="col">Check In</th>
                     <th scope="col">Check Out</th>
@@ -25,14 +25,15 @@
                     <td>{{ $f->IDCustomer }}</td>
                     <td>{{ $f->Name }}</td>
                     <td>{{ $f->Email }}</td>
+                    <td>{{ $f->Address }}</td>
                     <td>{{ $f->PhoneNumber }}</td>
                     <td>{{ $f->CheckIn }}</td>
                     <td>{{ $f->CheckOut }}</td>
                     <td>{{ $f->PaymentMethod }}</td>
                         <td> 
-                            <a href="" class="btn btn-success">Check Out</a>   
-                            <a href="" class="btn btn-primary">Edit</a>   
-                            <a href="" class="btn btn-danger">Cancel Booking</a>   
+                            <a href="/review" class="badge badge-success">Check Out</a>   
+                            <a href="/forms/edit/{{ $f->IDCustomer }}" class="badge badge-primary">Edit</a>   
+                            <a href="/forms/delete/{{ $f->IDCustomer }}" class="badge badge-danger">Cancel Booking</a>   
                         </td>
                 </tr>
                 </tbody>

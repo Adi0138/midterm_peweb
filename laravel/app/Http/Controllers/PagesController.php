@@ -45,4 +45,9 @@ class PagesController extends Controller
     {
         return view ('BookingReview');
     }
+
+    public function Review()
+    {
+        return view ('review');
+    }
 }

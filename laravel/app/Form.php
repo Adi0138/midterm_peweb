@@ -28,3 +28,29 @@ class Form extends Model
         
     ];
 }
+
+
+class Feedback extends Model
+{
+    protected $fillable = [
+        'Name', 'Ratings', 'WriteYourExperience'
+    ];
+
+    /**
+     * The attributes that should be hidden for arrays.
+     *
+     * @var array
+     */
+    protected $hidden = [
+        //
+    ];
+
+    /**
+     * The attributes that should be cast to native types.
+     *
+     * @var array
+     */
+    protected $casts = [
+        
+    ];
+}

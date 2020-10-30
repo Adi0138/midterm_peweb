@@ -5,6 +5,7 @@
 <div class="container">
 <div class="FormReservation"><h1>Form Reservation</h1></div>
 <form method="POST" action="{{route('bookingform.store')}}" enctype="multipart/form-data">
+  {{-- {{ csrf_field() }}   --}}
 @csrf
     <div class="form-row">
       <div class="form-group col-md-6">

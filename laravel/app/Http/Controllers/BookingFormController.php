@@ -68,10 +68,10 @@ class BookingFormController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
-    {
-        //
-    }
+    // public function edit($id)
+    // {
+    //     //
+    // }
 
     /**
      * Update the specified resource in storage.
@@ -80,10 +80,35 @@ class BookingFormController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
-    {
-        //
+    // public function update(Request $request, $id)
+    // {
+    //     //
+    // }
+
+    public function edit($ID){
+
+        $forms = DB::table('forms')->where('IDCustomer',$ID)->get();
+        // passing data pegawai yang didapat ke view edit.blade.php
+        return view('room/editform',['forms' => $forms]);
+ 
     }
+
+    
+    public function update(Request $request)
+    {
+    // dd($request->id);
+    DB::table('forms')->where('IDCustomer',$request->id)->update([
+        'Name' => $request->Name, 
+        'Email' => $request->Email, 
+        'Address' => $request->Address, 
+        'PhoneNumber' => $request->PhoneNumber, 
+        'CheckIn' => $request->CheckIn, 
+        'CheckOut' => $request->CheckOut, 
+        'PaymentMethod' => $request->PaymentMethod,            
+    ]);
+    
+	return redirect('/BookingReview');
+}
 
     /**
      * Remove the specified resource from storage.
@@ -91,8 +116,15 @@ class BookingFormController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    
+    public function delete($ID)
     {
-        //
+	// menghapus data pegawai berdasarkan id yang dipilih
+	DB::table('forms')->where('IDCustomer',$ID)->delete();
+		
+	// alihkan halaman ke halaman pegawai
+	return redirect('/BookingReview');
     }
+
+
 }

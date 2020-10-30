@@ -48,8 +48,20 @@ Route::get('/Details7', 'FacilitiesController@index6');
 Route::get('/Details8', 'FacilitiesController@index7');
 Route::get('/BookingReview', 'BookingReviewController@index');
 Route::get('/form', 'BookingFormController@index');
+Route::get('/forms/edit/{id}','BookingFormController@edit');
+Route::get('/feedback', 'FeedbackController@index');
+
+
+
+
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/form', 'BookingFormController@store')->name('bookingform.store');
+Route::post('/feedback', 'ReviewController@store')->name('feedback.store');
+
+Route::get('/review', 'ReviewController@index');
+Route::get('/forms/delete/{id}','BookingFormController@delete');
+Route::post('/forms/update','BookingFormController@update');
+
