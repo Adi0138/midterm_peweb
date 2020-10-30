@@ -31,7 +31,8 @@ Route::get('/', 'PagesController@home');
 Route::get('/about', 'PagesController@about');
 Route::get('/room', 'RoomController@index');
 Route::get('/facilities', 'PagesController@facilities');
-Route::get('/form', 'BookingFormController@index');
+Route::get('/form/{id}', 'BookingFormController@index');
+
 Route::get('/view', 'ViewController@index');
 Route::get('/view1', 'ViewController@index1');
 Route::get('/view2', 'ViewController@index2');
@@ -48,6 +49,8 @@ Route::get('/Details8', 'FacilitiesController@index7');
 
 
 
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/form', 'BookingFormController@store')->name('bookingform.store');

@@ -26,7 +26,7 @@
                         <td>Rp 5.000.000/night</td>
                         <td> 
                             <a href="/view" class="btn btn-primary">View</a>   
-                            <a href="/form" class="btn btn-success">Book</a>   
+                            <a href="/form/001" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
 
@@ -38,7 +38,7 @@
                         <td>Rp 5.000.000/night</td>
                         <td> 
                             <a href="/view" class="btn btn-primary">View</a>   
-                            <a href="/form" class="btn btn-success">Book</a>   
+                            <a href="/form/002" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
 
@@ -50,7 +50,7 @@
                         <td>Rp 2.000.000/night</td>
                         <td> 
                             <a href="/view1" class="btn btn-primary">View</a>   
-                            <a href="/form" class="btn btn-success">Book</a>   
+                            <a href="/form/003" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
 
@@ -61,7 +61,7 @@
                         <td>Rp 2.000.000/night</td>
                         <td> 
                             <a href="/view1" class="btn btn-primary">View</a>   
-                            <a href="/form" class="btn btn-success">Book</a>   
+                            <a href="/form/004" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
 
@@ -73,7 +73,7 @@
                         <td>Rp 1.500.000/night</td>
                         <td> 
                             <a href="/view2" class="btn btn-primary">View</a>   
-                            <a href="/form" class="btn btn-success">Book</a>   
+                            <a href="/form/005" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
                     
@@ -84,7 +84,7 @@
                         <td>Rp 1.500.000/night</td>
                         <td> 
                             <a href="/view2" class="btn btn-primary">View</a>   
-                            <a href="/form" class="btn btn-success">Book</a>   
+                            <a href="/form/006" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
 
@@ -95,7 +95,7 @@
                         <td>Rp 1.500.000/night</td>
                         <td> 
                             <a href="/view2" class="btn btn-primary">View</a>   
-                            <a href="/form" class="btn btn-success">Book</a>   
+                            <a href="/form/007" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
                     
@@ -108,7 +108,7 @@
                         <td>Rp 750.000/night</td>
                         <td> 
                             <a href="/view3" class="btn btn-primary">View</a>   
-                            <a href="/form" class="btn btn-success">Book</a>   
+                            <a href="/form/008" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
 
@@ -120,7 +120,7 @@
                         <td>Rp 750.000/night</td>
                         <td> 
                             <a href="/view3" class="btn btn-primary">View</a>   
-                            <a href="/form" class="btn btn-success">Book</a>   
+                            <a href="/form/009" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
 
@@ -132,7 +132,7 @@
                         <td>Rp 750.000/night</td>
                         <td> 
                             <a href="/view3" class="btn btn-primary">View</a>   
-                            <a href="/form" class="btn btn-success">Book</a>   
+                            <a href="/form/010" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
 
@@ -144,7 +144,7 @@
                         <td>Rp 750.000/night</td>
                         <td> 
                             <a href="/view3" class="btn btn-primary">View</a>   
-                            <a href="/form" class="btn btn-success">Book</a>   
+                            <a href="/form/011" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
 
@@ -156,7 +156,7 @@
                         <td>Rp 750.000/night</td>
                         <td> 
                             <a href="/view3" class="btn btn-primary">View</a>   
-                            <a href="/form" class="btn btn-success">Book</a>   
+                            <a href="/form/012" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
 
@@ -167,7 +167,7 @@
                         <td>Rp 500.000/night</td>
                         <td> 
                             <a href="/view4" class="btn btn-primary">View</a>   
-                            <a href="/form" class="btn btn-success">Book</a>   
+                            <a href="/form/013" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
 
@@ -179,7 +179,7 @@
                         <td>Rp 500.000/night</td>
                         <td> 
                             <a href="/view4" class="btn btn-primary">View</a>   
-                            <a href="/form" class="btn btn-success">Book</a>   
+                            <a href="/form/014" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
 
@@ -191,7 +191,7 @@
                         <td>Rp 500.000/night</td>
                         <td> 
                             <a href="/view4" class="btn btn-primary">View</a>   
-                            <a href="/form" class="btn btn-success">Book</a>   
+                            <a href="/form/015" class="btn btn-success">Book</a>   
                         </td>
                     </tr>
                 </tbody>
@@ -201,4 +201,4 @@
 </div>    
 @endsection
 
-  
+

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class BookingFormController extends Controller
 {
@@ -11,9 +12,10 @@ class BookingFormController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index($id)
     {
-        return view ('room/BookingForm');
+        $data = $id;
+        return view ('Room/BookingForm')->with('data',$data);
     }
 
     /**
@@ -34,7 +36,19 @@ class BookingFormController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        DB::table('forms')->insert([
+            'Name' => $request->Name, 
+            'Email' => $request->Email, 
+            'Address' => $request->Address, 
+            'PhoneNumber' => $request->PhoneNumber, 
+            'TypeOfRoom' => $request->Room, 
+            'CheckIn' => $request->CheckIn, 
+            'CheckOut' => $request->CheckOut, 
+            'PaymentMethod' => $request->PaymentMethod, 
+                    
+            ]
+        );
+        return redirect('room');
     }
 
     /**
