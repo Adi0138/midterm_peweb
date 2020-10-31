@@ -124,7 +124,7 @@ body {
             <h1 class="cover-heading text-center">About Us</h1>
             <p class="lead">The ITS Hotel, a perfect blend of Indonesian culture, traditions, lifestyle and beauty. A warm smile and impeccable service of ITS Hotel always accompany you during your stay with us. The ITS Hotel is located in the most favorite tourist destination in East Java, a magnificent ambience combining natural, contemporary and ancient United Kingdom Design. Our premium facilities which combine with our service quality together with exotic view of the three biggest mountains in East Java forming a luxury rejuvenating escape in the first five stars resort in East Java.</p>
             <p class="lead">
-              <a href="" class="btn btn-lg btn-secondary">Hotel Review</a>
+              <a href="/reviewhotel" class="btn btn-lg btn-secondary">Hotel Review</a>
             </main>
           </div>    
         </div>

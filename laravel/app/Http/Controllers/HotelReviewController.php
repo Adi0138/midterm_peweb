@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class BookingReviewController extends Controller
+class HotelReviewController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,11 +14,9 @@ class BookingReviewController extends Controller
      */
     public function index()
     {
-       
-    	$forms = DB::table('forms')->get();
+        $feedback = DB::table('feedback')->get();
  
-    	return view('room/BookingReview',['forms' => $forms]);
-       // return view ('room/BookingReview');
+    	return view('review/HotelReview',['feedback' => $feedback]);
     }
 
     /**

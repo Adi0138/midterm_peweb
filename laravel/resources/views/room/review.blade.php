@@ -32,7 +32,9 @@
           <label for="example-datetime-local-input" class="col-2 col-form-label">Ratings</label>
         <div class="col-10">
           <select class="custom-select" name="Ratings">
+            <option value="Dissatisfied">Dissatisfied</option>
             <option value="Normal">Normal</option>
+            <option value="Satisfied">Satisfied</option>
             <option value="Very Satisfied">Very Satisfied</option>
           </select>
         </div>
